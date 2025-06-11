@@ -10,6 +10,9 @@ import lombok.*;
  *
  * @author Huyen
  */
+//@Getter
+//@Setter
+//@EqualsAndHashCode
 @Data
 @Builder
 @NoArgsConstructor
@@ -18,4 +21,9 @@ public class NXB {
     private int id;
     private String ma;
     private String ten;
+
+    @Override
+    public String toString() {
+        return ten;
+    }
 }

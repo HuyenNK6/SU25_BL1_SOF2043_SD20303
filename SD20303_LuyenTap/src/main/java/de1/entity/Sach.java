@@ -22,4 +22,6 @@ public class Sach {
     private double donGia;
     private int idNXB;
     private int trangThai;
+    
+   
 }
